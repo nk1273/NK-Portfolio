@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital portfolio for Nate Klubek, an RIT Game Design and Development student focused on game programming, AI, and interactive systems.">
+  <title>Nate Klubek | Game Design & AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Nate Klubek home">
+        <span>NK</span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hero-ai-game-design.png" alt="Abstract dark blue digital environment with game grid lines and AI-inspired interface elements.">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Game Design + Artificial Intelligence</p>
+        <h1 id="hero-title">Building playful systems with intelligent design.</h1>
+        <p class="hero-copy">
+          I am a Game Design and Development student at Rochester Institute of Technology exploring the space between game programming, player experience, and artificial intelligence.
+        </p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-strip" aria-label="Portfolio highlights">
+      <div class="highlight">
+        <span class="stat">RIT</span>
+        <span>Game Design and Development</span>
+      </div>
+      <div class="highlight">
+        <span class="stat">C#</span>
+        <span>Unity, Monogame, and gameplay systems</span>
+      </div>
+      <div class="highlight">
+        <span class="stat">AI</span>
+        <span>Machine learning and interactive technology</span>
+      </div>
+    </section>
+
+    <section class="section split" id="about">
+      <div>
+        <p class="section-kicker">About Me</p>
+        <h2>Designer, builder, and systems thinker.</h2>
+      </div>
+      <div class="body-copy">
+        <p>
+          I am a sophomore at Rochester Institute of Technology majoring in Game Design and Development, currently exploring opportunities in both the game industry and artificial intelligence.
+        </p>
+        <p>
+          Through coursework and personal projects, I have built a strong foundation in game systems, programming, and interactive design. Game development has sharpened my appreciation for mechanics, player experience, and technical implementation, while my time at RIT has also sparked a growing interest in AI.
+        </p>
+        <p>
+          I am especially interested in how AI can enhance gameplay, power dynamic systems, and shape the future of digital interaction. I am actively building my technical skills through coursework and independent projects, and I am looking for internship or collaborative roles where I can contribute and grow.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="section-kicker">Selected Work</p>
+        <h2>Projects</h2>
+        <p>Playable games, class projects, jam prototypes, and technical experiments. Cards with live pages open in a new tab.</p>
+      </div>
+
+      <div class="project-grid">
+        <a class="project-card project-link featured" href="https://jland23.itch.io/tall-boy-and-the-lurking-legend" target="_blank" rel="noopener noreferrer">
+          <div class="project-media">
+            <img src="assets/tall-boy-lurking-legend.jpg" alt="Tall Boy and The Lurking Legend game title screen.">
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>Unity</span>
+              <span>Horror</span>
+              <span>Game Jam</span>
+            </div>
+            <h3>Tall Boy and The Lurking Legend</h3>
+            <p>
+              A top-down horror game made with a 3-person team for SCREAM JAM 2025. I helped implement core C#/Unity gameplay, movement controls, and AI systems.
+            </p>
+            <span class="project-cta">Open Itch Page</span>
+          </div>
+        </a>
+
+        <a class="project-card project-link" href="#contact" data-placeholder-project>
+          <div class="project-media placeholder-media">
+            <span>Sewer Soldiers</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>Monogame</span>
+              <span>C#</span>
+              <span>Team</span>
+            </div>
+            <h3>Sewer Soldiers</h3>
+            <p>
+              Academic top-down shooter project built by a team of four. I contributed C# gameplay systems, enemy behavior, supporting features, and the final presentation/demo.
+            </p>
+            <span class="project-cta">Page Coming Soon</span>
+          </div>
+        </a>
+
+        <a class="project-card project-link" href="#contact" data-placeholder-project>
+          <div class="project-media placeholder-media">
+            <span>PokeMono</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>Monogame</span>
+              <span>Portfolio</span>
+              <span>Prototype</span>
+            </div>
+            <h3>PokeMono</h3>
+            <p>
+              A Pokemon-inspired personal project made with a partner, focused on battle mechanics, player interaction, version control, and building toward a playable portfolio piece.
+            </p>
+            <span class="project-cta">Page Coming Soon</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading compact">
+        <p class="section-kicker">Technical Skills</p>
+        <h2>What I Bring</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-panel">
+          <h3>Languages</h3>
+          <ul>
+            <li>C#</li>
+            <li>JavaScript, HTML, CSS</li>
+            <li>C++ and Python</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="skill-panel">
+          <h3>Game & AI</h3>
+          <ul>
+            <li>Unity and Monogame</li>
+            <li>Gameplay programming</li>
+            <li>AI behavior logic</li>
+            <li>Dynamic systems design</li>
+          </ul>
+        </div>
+        <div class="skill-panel">
+          <h3>Tools</h3>
+          <ul>
+            <li>GitHub and Visual Studio Code</li>
+            <li>Trello and Maya</li>
+            <li>Visual Studio</li>
+            <li>Davinci Resolve</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-heading">
+        <p class="section-kicker">Education & Focus</p>
+        <h2>RIT game development student seeking Summer 2026 opportunities.</h2>
+        <p>Bachelor of Science in Game Design and Development, expected May 2028.</p>
+      </div>
+      <div class="resume-grid">
+        <div class="resume-card">
+          <h3>Objective</h3>
+          <p>Seeking an AI, machine learning, or game programming co-op/internship where I can apply C#, Unity, and collaborative development skills.</p>
+        </div>
+        <div class="resume-card">
+          <h3>Coursework & Recognition</h3>
+          <p>Relevant coursework includes game development in Monogame C#. Recognition includes Dean's List and RIT Game Dev Club involvement.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div>
+        <p class="section-kicker">Approach</p>
+        <h2>Clean loops make stronger games.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>01</span>
+          <div>
+            <h3>Prototype</h3>
+            <p>Start with a clear player goal and test the core interaction early.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span>02</span>
+          <div>
+            <h3>Playtest</h3>
+            <p>Look for friction, confusion, exploits, and the moments players remember.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span>03</span>
+          <div>
+            <h3>Refine</h3>
+            <p>Tune the design until the system communicates clearly and feels intentional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2>Let's build something playable.</h2>
+        <p>
+          Connect with me on LinkedIn or GitHub, or reach out about game programming, AI, and interactive technology opportunities.
+        </p>
+      </div>
+      <div class="contact-actions">
+        <a class="button primary" href="https://www.linkedin.com/in/nate-klubek" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="button secondary" href="https://github.com/nk1273" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>(c) <span id="current-year">2026</span> Nate Klubek. Built for game design, AI, and the next good prototype.</p>
+  </footer>
+</body>
+</html>
